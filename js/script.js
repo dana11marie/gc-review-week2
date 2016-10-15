@@ -54,3 +54,9 @@ var orders = [
 
 //orders variable is the argument that gets passed into the function.
 makePizza(orders);
+
+
+// DOM - adding a new element to the page.
+var newReason = document.createElement("li");
+newReason.innerHTML = "She knows math.";
+document.getElementById("reasons").appendChild(newReason);
